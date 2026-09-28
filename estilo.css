@@ -1,0 +1,78 @@
+h1 {
+  color: white;
+  text-align: center;
+  border-radius: 1.25rem;
+  font-size: 1.5rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+li {
+  color: white;
+  font-size: 0.9rem;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  color: white;
+  padding: 0;
+  list-style: none;
+}
+
+p {
+  color: white;
+  font-size: 1rem;
+  text-align: right;
+}
+
+.productos form {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+.productos form p {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 100%;
+}
+
+.productos img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* tablet*/
+@media (min-width: 37rem) {
+  h1 {
+    font-size: 1.875rem;
+  }
+
+  li {
+    font-size: 1rem;
+  }
+
+  .productos form {
+    width: 48%;
+  }
+}
+
+/* escritorio*/
+@media (min-width: 64rem) {
+  .productos form {
+    width: 23%;
+  }
+}
